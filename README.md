@@ -1,7 +1,13 @@
 Recycle Leather
 ===============
 
-Recycle Leather is a Datapack for Minecraft that adds recipes for scrapping saddles and leather armors (human or horse).
+Recycle Leather is a Datapack for Minecraft that adds recipes for scrapping leather armor pieces, and horse saddles and armors.
+
+All four leather armor pieces can be recycled. For horse equipement, saddles and leather horse armors can be recycled. All recycling recipes are unshapped, and return 1 leather.
+
+The recipe book integration will show all recycling recipes as a group.
+
+Enchanted, renamed, or trimmed armors can be recycled by dragging them in the crafting grid by hand, but, to avoid accidental destruction, the recipe book will not show the scrapping recipe as craftable for such items.
 
 license
 -------
