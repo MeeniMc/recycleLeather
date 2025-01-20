@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "ingredients": [{"item": "minecraft:leather_helmet"}],
+    "ingredients": ["minecraft:leather_helmet"],
     "result": {
         "id": "minecraft:leather",
         "count": 1

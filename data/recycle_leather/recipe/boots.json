@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "ingredients": [{"item": "minecraft:leather_boots"}],
+    "ingredients": ["minecraft:leather_boots"],
     "result": {
         "id": "minecraft:leather",
         "count": 1
