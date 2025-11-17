@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "recycle_leather",
+  "ingredients": [
+    {
+      "item": "minecraft:saddle"
+    }
+  ],
+  "result": {
+    "id": "minecraft:leather",
+    "count": 1
+  }
+}

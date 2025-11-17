@@ -1,7 +1,31 @@
 {
-	"pack":{
-		"pack_format": 4,
-		"supported_formats": [4, 61],
-		"description": "§6Recycle Leather§r: §oScrap leather from armor pieces and saddles\n §2v1.61.0; by MeeniMc; CC BY-NC-SA 4.0\n §9https://modrinth.com/datapack/recycleLeather"
-	}
+  "pack":{
+    "pack_format": 15,
+    "supported_formats": [15, 88],
+    "min_format": 15,
+    "max_format": 88,
+    "description": "§6Recycle Leather§r: §oScrap leather from armor pieces and saddles\n §2v1.88.0; by MeeniMc; CC BY-NC-SA 4.0\n §9https://modrinth.com/datapack/recycleLeather"
+  },
+  "overlays":{
+    "entries": [
+      {
+        "directory": "1.20.5-1.20.6",
+        "min_format": 34,
+        "max_format": 42,
+        "formats": [34, 42]
+      },
+      {
+        "directory": "1.21-1.21.1",
+        "min_format": 43,
+        "max_format": 48,
+        "formats": [43, 48]
+      },
+      {
+        "directory": "1.21.2-current",
+        "min_format": 49,
+        "max_format": 2147483647,
+        "formats": [49, 2147483647]
+      }
+    ]
+  }
 }
