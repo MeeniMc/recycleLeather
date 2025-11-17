@@ -1,9 +1,14 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [{"item": "minecraft:leather_horse_armor"}],
-    "result": {
-        "item": "minecraft:leather",
-        "count": 1
-    },
-    "group": "recycle_leather"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "recycle_leather",
+  "ingredients": [
+    {
+      "item": "minecraft:leather_horse_armor"
+    }
+  ],
+  "result": {
+    "item": "minecraft:leather",
+    "count": 1
+  }
 }

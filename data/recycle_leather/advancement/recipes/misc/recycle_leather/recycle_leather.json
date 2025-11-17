@@ -1,68 +1,72 @@
 {
-    "parent": "minecraft:recipes/root",
-    "criteria": {
-        "has_the_recipe_boots": {
-            "trigger": "minecraft:recipe_unlocked",
-            "conditions": {
-              "recipe": "recycle_leather:boots"
-            }
-        },
-        "has_the_recipe_chestplate": {
-            "trigger": "minecraft:recipe_unlocked",
-            "conditions": {
-              "recipe": "recycle_leather:chestplate"
-            }
-        },
-        "has_the_recipe_helmet": {
-            "trigger": "minecraft:recipe_unlocked",
-            "conditions": {
-              "recipe": "recycle_leather:helmet"
-            }
-        },
-        "has_the_recipe_horse_armor": {
-            "trigger": "minecraft:recipe_unlocked",
-            "conditions": {
-              "recipe": "recycle_leather:horse_armor"
-            }
-        },
-        "has_the_recipe_horse_leggings": {
-            "trigger": "minecraft:recipe_unlocked",
-            "conditions": {
-              "recipe": "recycle_leather:leggings"
-            }
-        },
-        "has_the_recipe_saddle": {
-            "trigger": "minecraft:recipe_unlocked",
-            "conditions": {
-              "recipe": "recycle_leather:saddle"
-            }
-        },
-        "has_leather": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [{"item": "minecraft:leather"}]
-            }
-        }
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe_boots": {
+      "conditions": {
+        "recipe": "recycle_leather:boots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
     },
-    "requirements": [
-      [
-        "has_the_recipe_boots",
-        "has_the_recipe_chestplate",
-        "has_the_recipe_helmet",
-        "has_the_recipe_horse_armor",
-        "has_the_recipe_horse_leggings",
-        "has_the_recipe_saddle",
-        "has_leather"
-      ]
-    ],
-    "rewards": {
-      "recipes": [
-        "recycle_leather:boots",
-        "recycle_leather:chestplate",
-        "recycle_leather:helmet",
-        "recycle_leather:horse_armor",
-        "recycle_leather:leggings",
-        "recycle_leather:saddle"
-      ]
+    "has_the_recipe_chestplate": {
+      "conditions": {
+        "recipe": "recycle_leather:chestplate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_the_recipe_helmet": {
+      "conditions": {
+        "recipe": "recycle_leather:helmet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_the_recipe_horse_armor": {
+      "conditions": {
+        "recipe": "recycle_leather:horse_armor"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_the_recipe_horse_leggings": {
+      "conditions": {
+        "recipe": "recycle_leather:leggings"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_the_recipe_saddle": {
+      "conditions": {
+        "recipe": "recycle_leather:saddle"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_leather": {
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:leather"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
+  },
+  "requirements": [
+    [
+      "has_the_recipe_boots",
+      "has_the_recipe_chestplate",
+      "has_the_recipe_helmet",
+      "has_the_recipe_horse_armor",
+      "has_the_recipe_horse_leggings",
+      "has_the_recipe_saddle",
+      "has_leather"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "recycle_leather:boots",
+      "recycle_leather:chestplate",
+      "recycle_leather:helmet",
+      "recycle_leather:horse_armor",
+      "recycle_leather:leggings",
+      "recycle_leather:saddle"
+    ]
+  }
 }
