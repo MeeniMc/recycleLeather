@@ -84,6 +84,6 @@ jobs:
           # Bump the upper bound when a new Minecraft line is supported; the
           # `releases` filter drops snapshots and pre-releases from the range.
           game-versions: |
-            >=1.13 <26.4
+            >=1.14 <26.4
           game-version-filter: releases
           version-type: ${{ steps.release.outputs.version_type }}
